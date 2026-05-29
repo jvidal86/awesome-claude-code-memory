@@ -42,7 +42,7 @@ Projects that model memory as entity-relationship graphs.
 | [blas0/Severance](https://github.com/blas0/Severance) | 43 | Custom graph | Graph traversal | **Description:** Cross-session Adaptive Memory (CAM) system.<br>**Innovation:** Auto-builds concept relationship graphs via hooks — no manual tagging. |
 | [gannonh/memento-mcp](https://github.com/gannonh/memento-mcp) | 409 | Neo4j 5.13+ | Graph + temporal | **Description:** Graph memory with temporal awareness.<br>**Innovation:** Point-in-time queries, confidence decay, version history on entities. |
 | [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service) | 1.5k | SQLite-vec + D3.js | Vector + graph | **Description:** Knowledge graph with D3.js visualization dashboard.<br>**Innovation:** 6 relationship types, autonomous consolidation (decay + compression). |
-| [7xuanlu/origin](https://github.com/7xuanlu/origin) | 32 | libSQL + Markdown projection | Hybrid + graph | **Description:** Local-first AI work memory for Claude Code, Cursor, Codex, and MCP clients.<br>**Innovation:** Session handoffs, source-backed wiki pages, git-versioned writes, graph context, and hybrid retrieval from one local daemon. |
+| [7xuanlu/origin](https://github.com/7xuanlu/origin) | 32 | libSQL + local artifacts | Hybrid + graph | **Description:** Local-first AI work memory for Claude Code, Cursor, Codex, and MCP clients.<br>**Innovation:** Session handoffs, source-backed wiki pages, git-versioned writes, graph context, and hybrid retrieval from one local daemon. |
 
 ## Advanced & Novel Approaches
 
