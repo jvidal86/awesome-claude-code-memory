@@ -39,6 +39,7 @@ Projects that model memory as entity-relationship graphs.
 | Project | Stars | Storage | Retrieval | Description |
 |---------|-------|---------|-----------|-------------|
 | [amarodeabreu/claude-graph-memory](https://github.com/amarodeabreu/claude-graph-memory) | 1 | Neo4j | Graph traversal | **Description:** 100% local graph memory. Browse at localhost:7474.<br>**Innovation:** MCP tools for store/retrieve/cypher queries over entity graphs. |
+| [Necmttn/ax](https://github.com/Necmttn/ax) | 32 | SurrealDB graph | Graph + full-text recall | **Description:** Local-first memory and observability graph for Claude Code, Codex, OpenCode, Cursor, and Pi.<br>**Innovation:** Normalizes transcripts, tools, costs, skills, OTLP events, and read-only MCP recall into one local graph. |
 | [blas0/Severance](https://github.com/blas0/Severance) | 43 | Custom graph | Graph traversal | **Description:** Cross-session Adaptive Memory (CAM) system.<br>**Innovation:** Auto-builds concept relationship graphs via hooks — no manual tagging. |
 | [gannonh/memento-mcp](https://github.com/gannonh/memento-mcp) | 409 | Neo4j 5.13+ | Graph + temporal | **Description:** Graph memory with temporal awareness.<br>**Innovation:** Point-in-time queries, confidence decay, version history on entities. |
 | [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service) | 1.5k | SQLite-vec + D3.js | Vector + graph | **Description:** Knowledge graph with D3.js visualization dashboard.<br>**Innovation:** 6 relationship types, autonomous consolidation (decay + compression). |
