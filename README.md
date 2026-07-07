@@ -54,6 +54,7 @@ Projects with distinctive architectures or research contributions.
 | [zircote/git-notes-memory](https://github.com/zircote/git-notes-memory) | 4 | Git notes + SQLite + sqlite-vec | Hybrid BM25+vector | **Description:** Memories stored as git notes — sync with `git push/pull`.<br>**Innovation:** 10 named namespaces, semantic search via all-MiniLM-L6-v2 embeddings, progressive hydration. |
 | [letta-ai/letta-code](https://github.com/letta-ai/letta-code) | 1.8k | Letta server | Agent memory | **Description:** MemGPT-based persistent agent for Claude Code. Model-agnostic.<br>**Innovation:** Single agent that survives across sessions. `/skill` extracts reusable patterns. |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 49.3k | Qdrant + Ollama | Vector | **Description:** General-purpose agent memory (+26% over OpenAI Memory on LOCOMO).<br>**Innovation:** OpenMemory MCP: fully local with Qdrant + Ollama, no cloud dependency. |
+| [TerminallyLazy/Tree-Ring-Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) | 2 | SQLite + FTS5 | FTS + lifecycle scoring | **Description:** Framework-agnostic Rust CLI/TUI for AI-agent memory lifecycle, with Claude Code discovery notes and portable skill guidance.<br>**Innovation:** Ring-based aging, explicit forgetting/redaction, audit checks, deterministic consolidation, DOX/Revolve adapters, and no required cloud service. |
 
 ## Observability & Monitoring
 
