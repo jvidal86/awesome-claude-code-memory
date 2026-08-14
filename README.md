@@ -31,6 +31,7 @@ Hook-driven projects that give Claude Code persistent memory across sessions.
 | [raoulbia-ai/claude-recall](https://github.com/raoulbia-ai/claude-recall) | 5 | SQLite | Pattern matching | **Description:** Correction-focused memory — no vectors, pattern matching only.<br>**Innovation:** Classifies user feedback as corrections via Haiku + regex. |
 | [yuvalsuede/memory-mcp](https://github.com/yuvalsuede/memory-mcp) | 85 | JSON + CLAUDE.md | Confidence rank | **Description:** Two-tier memory at ~$0.05/day.<br>**Innovation:** Top ~150 lines ranked by confidence in CLAUDE.md, full store in .memory/state.json. |
 | [memvid/claude-brain](https://github.com/memvid/claude-brain) | 318 | Single `.mv2` file | Vector | **Description:** Native Rust, sub-millisecond ops, no DB dependency.<br>**Innovation:** Portable single `.mv2` file you can git commit. |
+| [JanYork/llm-wiki-cli](https://github.com/JanYork/llm-wiki-cli) | 31 | SQLite + Markdown | FTS5 + graph | **Description:** Source-grounded proactive project memory for Claude Code and other coding agents.<br>**Innovation:** Immutable sources, citations, provenance, and atomic changesets, with lifecycle hooks and a bounded one-tool MCP interface. |
 
 ## Graph-Based Memory
 
