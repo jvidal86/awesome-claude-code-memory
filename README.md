@@ -54,6 +54,7 @@ Projects with distinctive architectures or research contributions.
 | [zircote/git-notes-memory](https://github.com/zircote/git-notes-memory) | 4 | Git notes + SQLite + sqlite-vec | Hybrid BM25+vector | **Description:** Memories stored as git notes — sync with `git push/pull`.<br>**Innovation:** 10 named namespaces, semantic search via all-MiniLM-L6-v2 embeddings, progressive hydration. |
 | [letta-ai/letta-code](https://github.com/letta-ai/letta-code) | 1.8k | Letta server | Agent memory | **Description:** MemGPT-based persistent agent for Claude Code. Model-agnostic.<br>**Innovation:** Single agent that survives across sessions. `/skill` extracts reusable patterns. |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 49.3k | Qdrant + Ollama | Vector | **Description:** General-purpose agent memory (+26% over OpenAI Memory on LOCOMO).<br>**Innovation:** OpenMemory MCP: fully local with Qdrant + Ollama, no cloud dependency. |
+| [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) | 21.8k | SQLite + local recordings | FTS5 via MCP | **Description:** Locally captured screen text and audio transcripts searchable from Claude Code through MCP.<br>**Innovation:** Adds context from work outside the coding session. Source-available under the Screenpipe Commercial License; configured cloud features and integrations can transmit context off-device. |
 
 ## Observability & Monitoring
 
